@@ -1,9 +1,11 @@
+/*facts*/
 type(leopard, wild).
 type(lion, wild).
 type(cheetah, wild).
 type(savannah, hybrid).
 type(persian, domestic).
 type(caracal, wild).
+
 hair(leopard, medium).
 hair(lion, short).
 hair(cheetah, medium).
