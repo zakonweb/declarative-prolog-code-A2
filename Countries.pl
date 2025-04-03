@@ -14,4 +14,4 @@ state(tasmania,australia).
 state(texas,usa).
 state(alaska,usa).
 
-in_same_continent(Country1,Country2) IF country(Country1,X) AND country(Country2,X).
+in_same_continent(Country1,Country2):-country(Country1,X),country(Country2,X).
